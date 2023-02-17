@@ -5,8 +5,3 @@
 - Carrie Lei
 - Ishraq Rahman
 
-## Lab Question Answers
-
-Answer for Question 1: 
-
-...
