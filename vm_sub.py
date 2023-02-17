@@ -29,8 +29,8 @@ def on_message(client, userdata, msg):
 
 #Custom message callback.
 def on_message_from_ipinfo(client, userdata, message):
-   print("Custom callback  - IP Message: "+message.payload.decode())
-
+    strMessage = str(message.payload.decode())
+    print("Custom callback  - IP Message: "+ strMessage)
 
 if __name__ == '__main__':
     
