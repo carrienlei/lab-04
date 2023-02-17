@@ -45,7 +45,7 @@ if __name__ == '__main__':
         #replace user with your USC username in all subscriptions
         client.publish("cnlei", f"{ip_address}")
         print("Publishing ip address: ", ip_address)
-        time.sleep(4)
+        time.sleep(1)
 
         #get date and time 
         now = datetime.now()
@@ -56,4 +56,6 @@ if __name__ == '__main__':
         print(date_list[0])
         print(date_list[1])
         client.publish("cnlei", f"{date_list[0]}")
+        time.sleep(1)
         client.publish("cnlei", f"{date_list[1]}")
+        time.sleep(1)
