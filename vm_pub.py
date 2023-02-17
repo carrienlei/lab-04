@@ -18,7 +18,6 @@ if __name__ == '__main__':
     hostname = socket.gethostname()
     ip_address = socket.gethostbyname(hostname)
     
-
     #create a client object
     client = mqtt.Client()
     
@@ -58,6 +57,3 @@ if __name__ == '__main__':
         print(date_list[1])
         client.publish("cnlei", f"{date_list[0]}")
         client.publish("cnlei", f"{date_list[1]}")
-        
-
-
