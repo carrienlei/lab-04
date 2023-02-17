@@ -30,7 +30,7 @@ def on_message(client, userdata, msg):
 #Custom message callback.
 def on_message_from_ipinfo(client, userdata, message):
     strMessage = str(message.payload.decode())
-    print("Custom callback  - IP Message: "+ strMessage)
+    print("Custom callback: "+ strMessage)
 
 if __name__ == '__main__':
     
